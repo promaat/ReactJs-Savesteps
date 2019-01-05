@@ -1,0 +1,33 @@
+* {
+  scroll-behavior: smooth;
+}
+
+main {
+  box-sizing: border-box;
+  padding: 3% 0;
+  color: grey;
+}
+
+.publisher {
+  font-weight: bold;
+  color: rgb(0, 128, 128);
+}
+
+.profile-photo {
+  height: 70px;
+  border-radius: 100px;
+  width: 70px;
+}
+
+.infographics-wrappper {
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.infographics {
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}

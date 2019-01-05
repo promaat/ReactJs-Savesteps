@@ -1,0 +1,217 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == big-desk {
+    @media (min-width: 112.5em) {
+      @content;
+    } //1800+px
+  }
+}
+.logo {
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-top: 10px; }
+
+.logo-form {
+  padding-top: 50px;
+  width: 25% !important;
+  height: 20% !important;
+  margin-left: 50%;
+  transform: translate(-50%); }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
+.main-header {
+  background: url(../img/6.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative; }
+
+.main-header .showcase {
+  padding-top: 110px; }
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  opacity: 0.8;
+  transform: translate(-50%); }
+
+.font-header {
+  font-weight: bold;
+}
+
+/* CARD */
+.card:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+/* BTN */
+.btn,
+.btn:link,
+.btn:visited {
+  transition: all 0.2s;
+  position: relative;
+  animation: moveInBottom 1s;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+section {
+  padding: 20px 30px; }
+
+/* FADE IN */
+.about,
+.donatur,
+.community {
+  opacity: 0; }
+
+/* SECTION ABOUT */
+/* SECTION DONATUR */
+.donatur {
+  background-color: #f4f4f4; }
+
+.donatur__card {
+  height: 350px; }
+
+/* SECTION COMMUNITY */
+.community {
+  padding-top: 30px; }
+
+.community__poster {
+  height: 450px !important;
+  width: auto !important;
+  cursor: pointer;
+  z-index: 1000; }
+
+.community__wrapper {
+  height: 500px !important;
+  width: auto !important;
+  z-index: 1000; }
+
+.community__padding {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%); }
+
+/* ARTICLE */
+/* FOOTER */
+.copy__center {
+  padding-top: 20px; }
+
+/* -------DONASI.HTML-------- */
+.anggota__card {
+  padding: 20px; }
+
+/* AJAKAN */
+.ajakan__img--responsive {
+  width: 100% !important;
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 56.25em) {
+    .ajakan__img--responsive {
+      opacity: 0;
+      width: 0 !important;
+      height: 0 !important; } }
+
+/* SECTION JUMLAH ANGGOTA */
+.jumlah-anggota {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 157, 137, 0.8), rgba(0, 157, 137, 0.8)); }
+
+/* SECTION ARTICLE */
+.chip-size {
+  width: 10px;
+  height: 30px; }
+
+/* MODAL */
+.modal-login {
+  width: 30% !important; }
+  @media (max-width: 56.25em) {
+    .modal-login {
+      width: 40% !important; } }
+  @media (max-width: 37.5em) {
+    .modal-login {
+      width: 50% !important; } }
+
+.form-register {
+  height: 75vh;
+  padding: 0px; }
+
+.form-register--full-height {
+  height: 100% !important;
+  width: 100% !important; }
+
+.btn-form {
+  margin-left: 50% !important;
+  transform: translate(-50%) !important;
+  width: 50% !important;
+  margin-top: 10px;
+  padding: 0; }
+
+.form-login {
+  padding: 20px 150px; }
+
+.card-image__form {
+  border-left: 3px solid #00c3ae; }
+
+.teritiary-header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../img/bg4.png); }
+
+.teritiary-header--news {
+  margin-top: 100px; }
+
+.teritiary-header--profile-photo {
+  height: 70px;
+  border-radius: 100px;
+  width: 70px;
+  margin-left: 50%;
+  transform: translate(-50%); }
+
+.form-padding {
+  height: 400px;
+  margin-top: 0px;
+  margin-left: -25px; }
+
+.slider {
+  z-index: 1000; }
