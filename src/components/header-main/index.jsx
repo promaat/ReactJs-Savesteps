@@ -81,7 +81,7 @@ const Header = ({ header }) => {
               Donasi Sekarang
             </Link>
             <a
-              href="#about"
+              href="/donasi"
               className="teal grey-text text-lighten-1 btn-floating pulse scroll-icon center-align"
             >
               <i className="material-icons large">arrow_drop_down_circle</i>

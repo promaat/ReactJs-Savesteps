@@ -34,7 +34,7 @@ const About = () => {
                   className="teritiary-header--profile-photo"
                 />
                 <p className="text-black">Bagus Ridho Samodra</p>
-                <p className="text-blue">This is email addr</p>
+                <p className="text-blue">kisraabrawis@gmail.com</p>
               </div>
               <div className="col s12 l4">
                 <img
@@ -43,16 +43,16 @@ const About = () => {
                   className="teritiary-header--profile-photo"
                 />
                 <p className="text-black">Rachmat Kurniawan</p>
-                <p className="text-blue">This is email addr</p>
+                <p className="text-blue">t.maker34.aikr@gmail.com</p>
               </div>
               <div className="col s12 l4">
                 <img
-                  src="img/bg4.png"
+                  src="img/p-min-2.jpeg"
                   alt
                   className="teritiary-header--profile-photo"
                 />
                 <p className="text-black">Rakandhiya Daanii Rachmanto</p>
-                <p className="text-blue">This is email addr</p>
+                <p className="text-blue">pijamastah69@gmailcom</p>
               </div>
             </div>
           </div>
