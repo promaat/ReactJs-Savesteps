@@ -101,9 +101,9 @@ const Home = () => {
                   <img src="img/bg4.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                  <p className="truncate">
-                    Seperti yang kita tahu Indonesia berada pada <i>ring of fire</i>, sehingga
-                    banyak terdapat gunung berapi aktif di Indonesia...
+                  <p>
+                    Indonesia terletak pada dua lempeng tektonik dimana sanngat berpotensi dalam meimbulkan gempa,
+                    gempa terjadi pada darat dan bawah laut, jika di bawah laut dapat berpotensi meimbulkan tsunami...
                   </p>
                 </div>
                 <div className="card-action center-align">
@@ -122,8 +122,9 @@ const Home = () => {
                   <img src="img/bg5.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                <p className="truncate">
-                    Seperti yang kita tahu Indonesia berada di jalur gunu
+                <p>
+                    Indonesia berada pada <i>ring of fire</i> atau cincin api pasifik dimana ada banyak gunung berapi aktif di Indonesia,
+                    hal ini meningkatkan potensi bencana di Indonesia karena sewaktu-waktu gunung tersebut dapat...
                   </p>
                 </div>
                 <div className="card-action center-align">
@@ -139,7 +140,7 @@ const Home = () => {
                   <img src="img/bg6.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                <p className="truncate">
+                <p>
                     Musim kemarau telah usai kini saat nya kita menghadapi musim
                     penghujan. Banyak masalah muncul saat musim penghujan salah
                     satunya adalah bencana banjir...

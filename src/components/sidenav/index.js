@@ -56,7 +56,7 @@ class TemporaryDrawer extends React.Component {
           className="white right material-btn hide-on-large-only show-on-med-and-down"
           onClick={this.toggleDrawer("left", true)}
         >
-          <i className={'material-icons'+ color}>menu</i>
+          <i className={'material-icons '+ color}>menu</i>
         </Button>
         <Drawer
           open={this.state.left}
