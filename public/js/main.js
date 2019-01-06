@@ -1,4 +1,4 @@
-import $ from 'jquery';
+window.$ = document.querySelectorAll.bind(document);
 $(document).ready(function() {
   // Init Sidenav
   $(".button-collapse").sideNav();
@@ -22,8 +22,6 @@ $(document).ready(function() {
         }
       );
   });
-  // CAROUSEL
-  $(".carousel").carousel();
   // ScrollFire
   const options = [
     {
@@ -32,7 +30,7 @@ $(document).ready(function() {
       callback: function(el) {
         Materialize.fadeInImage($(el));
       }
-    },
+    }
   ];
 
   Materialize.scrollFire(options);

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import SideNav from '../sidenav';
 
 const Header = ({ header }) => {
   return (
@@ -10,12 +11,7 @@ const Header = ({ header }) => {
             <Link to="/" className="brand-logo">
               <img src="img/pp.png" alt="Logo" className="logo" />
             </Link>
-            <a
-              className="button-collapse right"
-              data-activates="mobile-nav"
-            >
-              <i className="material-icons grey-text darken-2">menu</i>
-            </a>
+            <SideNav className="grey-text"/>
             <ul className="right hide-on-med-and-down grey-text">
               <li className="active">
                 <Link to="/" className="grey-text">
@@ -40,28 +36,6 @@ const Header = ({ header }) => {
               </li>
             </ul>
           </div>
-          <ul className="side-nav view" id="mobile-nav">
-          <li className="active">
-                <Link to="/" className="grey-text">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/donasi" className="grey-text">
-                  Donasi
-                </Link>
-              </li>
-              <li>
-                <Link to="/article" className="grey-text">
-                  Article
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="grey-text">
-                  About Us
-                </Link>
-              </li>
-          </ul>
         </div>
       </nav>
       <div className="showcase container">
@@ -75,13 +49,13 @@ const Header = ({ header }) => {
             </p>
             <br />
             <Link
-              to="#about"
+              to="/donasi"
               className="btn btn-large white black-text waves-effect"
             >
               Donasi Sekarang
             </Link>
             <a
-              href="/donasi"
+              href="#about"
               className="teal grey-text text-lighten-1 btn-floating pulse scroll-icon center-align"
             >
               <i className="material-icons large">arrow_drop_down_circle</i>

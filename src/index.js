@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Navbar from './components/navbar';
 import Home from './components/home';
 import Donasi from './components/donasi';
 import About from './components/about/';
@@ -12,6 +11,7 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <Route exact path="/" component={Home}/>
+      <Route path="/home" component={Home}/>
       <Route path="/donasi" component={Donasi}/>
       <Route path="/about" component={About}/>
       <Route path="/article" component={Article}/>

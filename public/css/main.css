@@ -172,7 +172,7 @@ section {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../img/bg4.png); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../img/bg6.png); }
 
 .teritiary-header--news {
   margin-top: 150px; }
@@ -246,4 +246,11 @@ main {
 }
 .page-footer{
   padding-top: 0 !important;
+}
+.material-btn{
+  padding: 0 !important;
+}
+.material-btn:link,
+.material-btn:visited{
+  background-color: white !important;
 }

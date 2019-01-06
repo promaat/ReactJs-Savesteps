@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import sideNav from '../sidenav';
 const headerTeritiary = () => {
   return (
     <header className="teritiary-header">
@@ -10,12 +11,7 @@ const headerTeritiary = () => {
               <Link to="/" className="brand-logo">
                 <img className="logo" src="img/pp.png" alt />
               </Link>
-              <a
-                className="button-collapse right"
-                data-activates="mobile-nav"
-              >
-                <i className="material-icons white-text">menu</i>
-              </a>
+              <sideNav color="white-text"/>
               <ul className="right hide-on-med-and-down">
                 <li>
                   <Link to="/" className="white-text">
@@ -29,24 +25,6 @@ const headerTeritiary = () => {
                 </li>
                 <li>
                   <Link to="/about" className="white-text">
-                    {" "}
-                    About Us{" "}
-                  </Link>
-                </li>
-              </ul>
-              <ul className="side-nav" id="mobile-nav">
-                <li>
-                  <Link to="/" className="grey-text">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/donasi" className="grey-text">
-                    Donasi
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/about" className="grey-text">
                     {" "}
                     About Us{" "}
                   </Link>

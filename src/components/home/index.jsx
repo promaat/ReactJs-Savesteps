@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header-main";
-import Footer from '../footer';
-import { Link } from 'react-router-dom';
+import Footer from "../footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,7 +26,8 @@ const Home = () => {
                   </i>
                   <h6 className="grey-text"> Stay UpToDate</h6>
                   <p>
-                    Artikel kami yang stay update mengikuti perkembangan teknologi saat ini
+                    Artikel kami yang stay update mengikuti perkembangan
+                    teknologi saat ini
                   </p>
                 </div>
                 <div className="col s6">
@@ -34,24 +35,28 @@ const Home = () => {
                   <i className="material-icons teal-text large"> assessment </i>
                   <h6 className="grey-text"> Edukasi </h6>
                   <p>
-                    Kami menyediakan artikel yang menarik dan mudah dimengerti sehingga pembaca
-                    cepat mengerti apa yang perlu dipersiapkan dalam menghadapi pasca dan pra bencana.
+                    Kami menyediakan artikel yang menarik dan mudah dimengerti
+                    sehingga pembaca cepat mengerti apa yang perlu dipersiapkan
+                    dalam menghadapi pasca dan pra bencana.
                   </p>
                 </div>
                 <div className="col s6">
-                  <i className="material-icons teal-text large"> lock_outline </i>
+                  <i className="material-icons teal-text large">
+                    {" "}
+                    lock_outline{" "}
+                  </i>
                   <h6 className="grey-text">Aman dan Terpercaya</h6>
                   <p>
-                    Dana donasi aman dan terverifikasi, kami berkerjasama dengan pemerintah setempat dalam hal
-                    penyaluran donasi.
+                    Dana donasi aman dan terverifikasi, kami berkerjasama dengan
+                    pemerintah setempat dalam hal penyaluran donasi.
                   </p>
                 </div>
                 <div className="col s6">
                   <i className="material-icons teal-text large"> alarm_on </i>
                   <h6 className="grey-text">Praktis</h6>
                   <p>
-                    Mari jadi relawan, anda tidak perlu terjun langsung ke lapangan. 
-                    Bantu dengan ikut berdonasi.
+                    Mari jadi relawan, anda tidak perlu terjun langsung ke
+                    lapangan. Bantu dengan ikut berdonasi.
                   </p>
                 </div>
               </div>
@@ -96,14 +101,16 @@ const Home = () => {
                   <img src="img/bg4.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur quidem ullam, consectetur atque deleniti quod
-                    quaerat incidunt amet soluta qui?
+                  <p className="truncate">
+                    Seperti yang kita tahu Indonesia berada pada <i>ring of fire</i>, sehingga
+                    banyak terdapat gunung berapi aktif di Indonesia...
                   </p>
                 </div>
-                <div className="card-action">
-                  <Link to="/article" className="teal-text waves-effect waves-light">
+                <div className="card-action center-align">
+                  <Link
+                    to="/article"
+                    className="teal-text waves-effect waves-light"
+                  >
                     Read More
                   </Link>
                 </div>
@@ -115,14 +122,12 @@ const Home = () => {
                   <img src="img/bg5.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur quidem ullam, consectetur atque deleniti quod
-                    quaerat incidunt amet soluta qui?
+                <p className="truncate">
+                    Seperti yang kita tahu Indonesia berada di jalur gunu
                   </p>
                 </div>
-                <div className="card-action">
-                  <Link to="#!" className="teal-text">
+                <div className="card-action center-align">
+                  <Link to="/article" className="teal-text">
                     Read More
                   </Link>
                 </div>
@@ -134,14 +139,14 @@ const Home = () => {
                   <img src="img/bg6.png" alt className="article__card1" />
                 </div>
                 <div className="card-content">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur quidem ullam, consectetur atque deleniti quod
-                    quaerat incidunt amet soluta qui?
+                <p className="truncate">
+                    Musim kemarau telah usai kini saat nya kita menghadapi musim
+                    penghujan. Banyak masalah muncul saat musim penghujan salah
+                    satunya adalah bencana banjir...
                   </p>
                 </div>
-                <div className="card-action">
-                  <Link to="#!" className="teal-text">
+                <div className="card-action center-align">
+                  <Link to="/article" className="teal-text">
                     Read More
                   </Link>
                 </div>
@@ -150,7 +155,7 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
