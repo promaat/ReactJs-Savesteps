@@ -18,7 +18,7 @@ const About = () => {
               <p className="center-align" style={{ fontSize: "1.1em" }}>
                 Savesteps adalah website untuk menggalang dana dan berdonasi
                 untuk membantu korban bencana alam. Website ini juga memberikan
-                edukasi tentang cara pencegahan dan mengatasi bencana alam.
+                edukasi tentang cara pencegahan dan mengatasi bencana alam,.
               </p>
             </div>
           </div>
